@@ -444,7 +444,7 @@ class TestPackageMeta:
         """Test that version is accessible."""
         import langchain_longprobe
 
-        assert langchain_longprobe.__version__ == "0.1.0"
+        assert langchain_longprobe.__version__ == "0.1.1"
 
     def test_all_exports(self) -> None:
         """Test that all public exports are importable."""
