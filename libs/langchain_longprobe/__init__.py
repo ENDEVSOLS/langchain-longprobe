@@ -24,7 +24,7 @@ from langchain_longprobe.probe import RetrievalProbe
 from langchain_longprobe.retriever import ProbedRetriever
 from langchain_longprobe.runnable import RetrievalRegressionRunnable
 
-__version__ = "0.1.0"
+__version__ = "0.1.1"
 
 __all__ = [
     "LongProbeCallbackHandler",
